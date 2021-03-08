@@ -1,0 +1,47 @@
+.camera {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+.categorie {
+    text-align: center;
+    clear: both;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10vh;
+    overflow: hidden;
+}
+
+.title {
+    float: left;
+    margin: 0.5em;
+}
+
+.option {
+    float: right;
+    margin: 0.5em;
+}
+
+.txt-accueil {
+    display: inline;
+    vertical-align: middle;
+}
+
+.icons {
+    vertical-align: middle;
+}
+
+.categories {
+    position: absolute;
+    top:10vh;
+    left: 0;
+    right: 0;
+    margin: 2%;
+}
