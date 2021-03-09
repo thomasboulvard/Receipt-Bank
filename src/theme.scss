@@ -34,3 +34,61 @@ nav {
 .teal {
     text-align: center;
 }
+
+.bg-color {
+    background-color: #90cc33;
+}
+
+label, span {
+    font-size: 1.1em; 
+    color: black;
+}
+legend {
+    font-weight: bold; 
+    font-size: 1.5em;
+}
+form {
+    text-align: center;
+    background-color: rgb(233, 240, 216);
+}
+
+section {
+    position: relative; 
+}
+
+.vh-40 {
+    height: 40vh; 
+}
+
+.vh-10 {
+    height: 10vh; 
+}
+
+.above {
+    z-index: 1; 
+}
+
+.fixed {
+    position: fixed; 
+}
+
+.left{
+    float: left;
+}
+
+.ta-c {
+    text-align: center;
+} 
+
+.relative {
+    width: 100%;
+    position: relative; 
+    height: 80vh; 
+    top: 10vh;
+}
+
+.absolute {
+    height: 100%;
+    position: absolute; 
+    width: 100%; 
+}

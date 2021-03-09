@@ -30,6 +30,7 @@ module.exports = {
                 test: /\.(jpg|png|woff|woff2|eot|ttf|svg)$/,
                 loader: 'file-loader',
             },
+
         ],
     },
     watchOptions: {
@@ -46,10 +47,14 @@ module.exports = {
             port: 3000,
             files: [
                 'www/index.html',
+                'www/importPhoto.html',
+                'www/myData.html',
+                'www/newData.html',
                 'www/camera.html',
                 'www/informations.html'
                 'www/settings.html',
                 'www/share-popup.html',
+
                 // add other files to watch for hot reload
             ],
             server: {
