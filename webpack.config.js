@@ -48,6 +48,8 @@ module.exports = {
                 'www/index.html',
                 'www/camera.html',
                 'www/informations.html'
+                'www/settings.html',
+                'www/share-popup.html',
                 // add other files to watch for hot reload
             ],
             server: {

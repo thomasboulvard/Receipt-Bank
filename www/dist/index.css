@@ -6202,7 +6202,9 @@ input[type=range]::-ms-thumb {
   .tap-target-wrapper.open .tap-target-wave::after {
     visibility: visible;
     animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
-    transition: opacity .3s, transform .3s, visibility 0s 1s; }
+    transition: opacity .3s,
+ transform .3s,
+ visibility 0s 1s; }
 
 .tap-target {
   position: absolute;
@@ -6237,7 +6239,9 @@ input[type=range]::-ms-thumb {
     transition: transform .3s; }
   .tap-target-wave::after {
     visibility: hidden;
-    transition: opacity .3s, transform .3s, visibility 0s;
+    transition: opacity .3s,
+ transform .3s,
+ visibility 0s;
     z-index: -1; }
 
 .tap-target-origin {
@@ -6572,17 +6576,37 @@ nav {
   background-color: #01579b !important;
   padding-left: 1.25em; }
 
-.btn, .btn-large, .btn-small {
+.btn-large {
+  margin-top: 2em;
+  width: 14em;
+  background: #d7dde8;
+  color: black; }
+
+#camera {
   background-color: #c2185b;
   position: fixed;
   bottom: 5%;
   right: 5%; }
 
-.btn:hover, .btn-large:hover, .btn-small:hover {
+#camera:hover {
   background-color: #8c0032; }
 
-.teal {
-  text-align: center; }
+#fb-buton {
+  background: #3b5998;
+  color: white; }
+
+#fb-icon {
+  color: white; }
+
+#close-icon {
+  color: black;
+  font-size: xx-large; }
+
+#popup-tile {
+  background-color: #fafafa !important;
+  margin-top: 50%;
+  margin-bottom: 50%;
+  border-radius: 1rem; }
 
 .camera {
   position: fixed;
@@ -6591,53 +6615,7 @@ nav {
   left: 0;
   text-align: center; }
 
-.categorie {
-  text-align: center;
-  clear: both; }
-
-.navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 10vh;
-  overflow: hidden; }
-
-.title {
-  float: left;
-  margin: 0.5em; }
-
-.option {
-  float: right;
-  margin: 0.5em; }
-
-.txt-accueil {
-  display: inline;
-  vertical-align: middle; }
-
-.icons {
-  vertical-align: middle; }
-
-.categories {
-  position: absolute;
-  top: 10vh;
-  left: 0;
-  right: 0;
-  margin: 2%; }
-
-.btn-center {
-  position: fixed;
-  bottom: 5%;
-  right: 5%; }
-
-.facture {
-  width: 100vw;
-  height: 5%; }
-
-.img-facture {
-  width: 100%; }
-
-#camera {
+#webcam {
   width: 100vw;
   height: 100vh;
   object-fit: cover;
@@ -6645,4 +6623,48 @@ nav {
   top: 0;
   left: 0;
   z-index: -1; }
+
+.material-icons {
+  color: white;
+  vertical-align: middle; }
+
+.sidenav {
+  background: #fafafa;
+  padding-top: 2em; }
+
+.popup-title {
+  text-align: center;
+  text-decoration-line: underline;
+  font-size: larger;
+  font-weight: bold; }
+
+.settings-butons {
+  top: 10vh;
+  bottom: 10vh;
+  left: 0;
+  right: 0;
+  text-align: center; }
+
+.share-butons {
+  top: 10vh;
+  bottom: 10vh;
+  left: 0;
+  right: 0;
+  text-align: center; }
+
+.color-icon {
+  color: black; }
+
+h5 {
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: justify; }
+
+p {
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: justify; }
+
+.contact {
+  margin-left: 15px; }
 
