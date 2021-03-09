@@ -4,7 +4,7 @@ const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 module.exports = {
     entry: [
         './src/index.js',
-        './src/css/index.scss',
+        './src/index.scss',
     ],
     output: {
         path: `${__dirname}/www/dist`,
@@ -46,6 +46,8 @@ module.exports = {
             port: 3000,
             files: [
                 'www/index.html',
+                'www/camera.html',
+                'www/informations.html'
                 'www/settings.html',
                 'www/share-popup.html',
                 // add other files to watch for hot reload
