@@ -6677,11 +6677,10 @@ section {
   z-index: -1; }
 
 .settings-butons {
-  top: 10vh;
-  bottom: 10vh;
-  left: 0;
-  right: 0;
-  text-align: center; }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
 
 .popup-title {
   text-align: center;
