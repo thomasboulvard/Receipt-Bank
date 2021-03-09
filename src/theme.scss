@@ -11,9 +11,10 @@ body {
 
 .btn {
     background-color: #abcf75;
-    margin: 0.5em 0.5em;
+    margin: 0.5em 0;
     color: black;
     font-weight: bold;
+    width: 100%; 
 }
 
 label, span {
