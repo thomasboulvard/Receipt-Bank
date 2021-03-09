@@ -51,7 +51,7 @@ module.exports = {
                 'www/myData.html',
                 'www/newData.html',
                 'www/camera.html',
-                'www/informations.html'
+                'www/informations.html',
                 'www/settings.html',
                 'www/share-popup.html',
 
